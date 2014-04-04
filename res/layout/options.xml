@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/tvOptions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/options"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/bHelp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/help"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/bCredits"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/credits"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvDifTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/difficulty"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/bCurentDif"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/defaulttextboxfill"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

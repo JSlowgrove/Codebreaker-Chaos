@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/background"
+    android:orientation="vertical" 
+    android:weightSum="60">
+
+    <TextView
+        android:id="@+id/tvChoice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/choice"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:id="@+id/bOld"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="@string/old"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_weight="10" />
+
+    <Button
+        android:id="@+id/bNew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="@string/newgame"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    
+     <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_weight="25" />
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/credits"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/creditsmclogo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/creditsmclogo"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/creditscreator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/creditcreator"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/creditsnotes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/creditnotes"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="35dp" />
+
+            <ImageView
+                android:id="@+id/ivMClogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/mcldescription"
+                android:src="@drawable/mastered_chaos_logo" />
+
+            <TextView
+                android:id="@+id/tvMCsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/mcsite"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="start">Start</string>
+    <string name="app_name">Codebreaker Chaos</string>
+    <string name="guy">Codebreaker Chaos Guy</string>
+    <string name="scores">Scores</string>
+    <string name="save">Save</string>
+    <string name="letterstitle">Letters used in the message:</string>
+    <string name="lastScore">Score:</string>
+    <string name="credits">Credits</string>
+    <string name="returnbutton">Return to Main Menu</string>
+    <string name="mcldescription">Mastered Chaos Logo</string>
+    <string name="mcsite">www.masteredchaos.com</string>
+    <string name="ccldescription">Codebreaker Chaos Logo</string>
+    <string name="creditcreator">Everything else was either created by Jamie Slowgrove or has been placed online to be under the creative commons public domain zero licence (mainly the sound effects).</string>
+    <string name="creditnotes">This game was created by me (Jamie Slowgrove) and it was created for my A2 computing project.</string>
+    <string name="creditsmclogo">The Mastered Chaos logo and Codebreaker Chaos logo was created by Matthew Cocks.</string>
+    <string name="starttitle">Break the Code</string>
+    <string name="codetitle">Encoded Message:</string>
+    <string name="usercurrentcodetitle">Your current decoding:</string>
+    <string name="check">Check</string>
+    <string name="win">Code Cracked</string>
+    <string name="defaulttextboxfill">-</string>
+    <string name="timeTaken">Time Taken:</string>
+    <string name="main">Back to main menu</string>
+    <string name="options">Options</string>
+    <string name="difficulty">Difficulty on New Puzzles:</string>
+    <string name="help">Help</string>
+    <string name="choice">Do you wish to continue your saved game?</string>
+    <string name="newgame">New Game (WARNING: this will delete your saved game)</string>
+    <string name="old">Continue</string>
+    <string name="and">&amp;</string>
+
+</resources>
